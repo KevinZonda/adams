@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="share">
-                    <a href="javascript:;" data-qrcode="//api.qrserver.com/v1/create-qr-code/?size=150x150&margin=10&data=<?php $this->permalink(); ?>"><i class="czs-scan-l s"></i><i class="czs-qrcode-l h"></i> codr</a>
+                    <a href="javascript:;" data-qrcode="//api.qrserver.com/v1/create-qr-code/?size=150x150&margin=10&data=<?php $this->permalink(); ?>"><i class="czs-scan-l s"></i><i class="czs-qrcode-l h"></i> code</a>
                 </div>
             </div>
         <?php } else {?>
