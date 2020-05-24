@@ -5,7 +5,7 @@
         </article>
         
         <nav class="nearbypost">
-            <div class="alignleft"><?php $this->thePrev('%s','没有了'); ?></div>
-            <div class="alignright"><?php $this->theNext('%s','没有了'); ?></div>
+            <div class="alignleft"><?php $this->thePrev('%s','No more'); ?></div>
+            <div class="alignright"><?php $this->theNext('%s','No more'); ?></div>
         </nav>
     </section>
