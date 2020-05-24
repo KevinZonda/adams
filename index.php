@@ -30,7 +30,7 @@ $this->need('header.php');
                     <footer>
                         <span class="time"><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished" pubdate><?php $this->date('Y-m-d'); ?></time>published</span>
                         <span class="hr"></span>
-                        <span class="comments"><?php $this->commentsNum('Comment', '1 comment', '%d comments'); ?></span>
+                        <span class="comments"><?php $this->commentsNum('No comment', '1 comment', '%d comments'); ?></span>
                     </footer>
                 </article>
                 <?php endwhile; else: ?>
