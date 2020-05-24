@@ -28,15 +28,15 @@ $this->need('header.php');
                         </p>
                     </main>
                     <footer>
-                        <span class="time"><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished" pubdate><?php $this->date('Y-m-d'); ?></time>发布</span>
+                        <span class="time"><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished" pubdate><?php $this->date('Y-m-d'); ?></time>published</span>
                         <span class="hr"></span>
-                        <span class="comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></span>
+                        <span class="comments"><?php $this->commentsNum('Comment', '1 comment', '%d comments'); ?></span>
                     </footer>
                 </article>
                 <?php endwhile; else: ?>
                 <article class="meta">
                     <h3 style="font-size: 3em;margin: 0 0 20px;color: #000;">Sorry!</h3>
-                    <p>这个页面没有你要找的内容。</p>
+                    <p>Nothing found what you needed.</p>
                 </article>
             <?php endif; ?>
                 <nav class="reade_more">

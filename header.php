@@ -84,12 +84,12 @@
             <!--<div class="fixed-menus"></div>-->
             <div class="fields">
                 <span><i class="czs-time-l"></i> <?php $this->date('Y-m-d'); ?></span> / 
-                <span><i class="czs-talk-l"></i> <?php $this->commentsNum('无评论', '1 条', '%d 条'); ?></span>
+                <span><i class="czs-talk-l"></i> <?php $this->commentsNum('No comment', '1 comment', '%d comments'); ?></span>
             </div>
             
             <div class="socials">
                 <div class="donate">
-                    <a href="javascript:;"><i class="czs-coin-l s"></i><i class="czs-coin h"></i> 赏</a>
+                    <a href="javascript:;"><i class="czs-coin-l s"></i><i class="czs-coin h"></i> donate</a>
                     <div class="window">
                         <ul>
                             <li class="alipay"><img src="<?php $this->options->alipay_img(); ?>"/></li>
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="share">
-                    <a href="javascript:;" data-qrcode="//api.qrserver.com/v1/create-qr-code/?size=150x150&margin=10&data=<?php $this->permalink(); ?>"><i class="czs-scan-l s"></i><i class="czs-qrcode-l h"></i> 码</a>
+                    <a href="javascript:;" data-qrcode="//api.qrserver.com/v1/create-qr-code/?size=150x150&margin=10&data=<?php $this->permalink(); ?>"><i class="czs-scan-l s"></i><i class="czs-qrcode-l h"></i> codr</a>
                 </div>
             </div>
         <?php } else {?>

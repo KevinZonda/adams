@@ -19,7 +19,7 @@ $this->need('header.php'); ?>
                 if ($year != $year_tmp && $year > 0) $output .= '</div>';   
                 if ($year != $year_tmp) {   
                     $year = $year_tmp;   
-                    $output .= '<table><h3 class="al_year">'. $year .' 年</h3><div class="al_posts">'; //输出年份   
+                    $output .= '<table><h3 class="al_year">'. $year .' year</h3><div class="al_posts">'; //输出年份   
                 }   
                 $output .= '<tr>
                     <td width="80" style="text-align:right;">'.date('m-d',$archives->created).'</td>
