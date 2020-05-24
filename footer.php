@@ -18,7 +18,7 @@
     <a class="socolor"><i class="czs-clothes-l"></i></a>
     <div class="s">
 		<form id="search" method="post" action="<?php $this->options->siteUrl(); ?>" role="search" class="search">
-		    <input class="search-key text" id="s" name="s" autocomplete="off" placeholder="输入关键词..." type="text" value="" required="required">
+		    <input class="search-key text" id="s" name="s" autocomplete="off" placeholder="Enter keywords..." type="text" value="" required="required">
 		</form>
     </div>
     <div class="c">

@@ -44,7 +44,7 @@ echo $commentClass;
     <!-- Comments -->
     <section class="comments">
         <div class="container" data-no-instant>
-		    <h3 id="comments" class="comments-title"><?php $this->commentsNum('No comment', '1 comment', '%d comments'); ?>reply: “<?php $this->title(); ?>”</h3>
+		    <h3 id="comments" class="comments-title"><?php $this->commentsNum('No comment', '1 comment', '%d comments'); ?> reply: “<?php $this->title(); ?>”</h3>
 		
             <?php $this->comments()->to($comments); ?>
             <?php if ($comments->have()): ?>
@@ -55,7 +55,7 @@ echo $commentClass;
 			
 			<div id="respond" class="comment-respond">
 			    <?php if($this->allow('comment')): ?>
-		        <h3 id="reply-title" class="comment-reply-title">Title<small><?php $comments->cancelReply(); ?></small></h3>
+		        <h3 id="reply-title" class="comment-reply-title">Comment<small><?php $comments->cancelReply(); ?></small></h3>
                 <form method="post" action="<?php $this->commentUrl() ?>" id="commentform" role="form">
 				    <!-- 如果当前用户已经登录 -->
                     <?php if($this->user->hasLogin()): ?>
